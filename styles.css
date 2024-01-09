@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b54a1f;
+    color: white;
+    padding: 10px 20px;
+    box-shadow:  2px 6px #e6894c;
+  }
+  
+  .brand {
+    font-weight: bold;
+  }
+  
+  .dashboard {
+    display: flex;
+    padding-left: 150px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user p {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  
+.icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons span,
+  .icons img {
+    margin-right: 10px;
+  }
+  
+  
+  .user-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
